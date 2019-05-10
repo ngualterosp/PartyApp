@@ -99,12 +99,17 @@ public class MainActivity extends AppCompatActivity {
         startActivity(Bares);
     }
 
-    public void btn_hits (View view){
-        Intent hi =  new Intent(this, Hits.class);
-        startActivity(hi);
+    public void  btn_eventos (View view){
+        Intent Eventos = new Intent(this, Eventos.class);
+        startActivity(Eventos);
     }
 
-    //holi bebe te amo att la mejor bff
+    public void btn_Hits (View view){
+        Intent Hits = new Intent(this, Hits.class);
+        startActivity(Hits);
+    }
+
+
 
 
 }

@@ -55,7 +55,7 @@
             android:layout_width="75dp"
             android:layout_height="75dp"
             android:layout_weight="0"
-            android:background="@drawable/pausa"
+            android:background="@drawable/detener"
             android:text=""
             android:onClick="Stop"/>
 
