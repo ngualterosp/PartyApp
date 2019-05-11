@@ -8,8 +8,6 @@ import android.widget.Button;
 
 public class dialogo_cangri {
 
-    private Button Sutton;
-    private Button btn_ant, btn_sig;
     public dialogo_cangri(Context contexto)
     {
         final Dialog dialogo = new Dialog(contexto);
@@ -19,8 +17,5 @@ public class dialogo_cangri {
         dialogo.setContentView(R.layout.dialogo_cangri);
         dialogo.show();
 
-
     }
-
 }
-

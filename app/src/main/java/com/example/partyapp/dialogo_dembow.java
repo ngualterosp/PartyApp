@@ -1,5 +1,4 @@
 package com.example.partyapp;
-
 import android.app.Dialog;
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
@@ -8,8 +7,6 @@ import android.widget.Button;
 
 public class dialogo_dembow {
 
-    private Button Sutton;
-    private Button btn_ant, btn_sig;
     public dialogo_dembow(Context contexto)
     {
         final Dialog dialogo = new Dialog(contexto);
@@ -22,4 +19,3 @@ public class dialogo_dembow {
     }
 
 }
-

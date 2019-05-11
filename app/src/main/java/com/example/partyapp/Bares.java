@@ -27,7 +27,7 @@ public class Bares extends AppCompatActivity {
     public void Selecccion(View view){
         switch (view.getId()){
             case R.id.Sutton:
-                new dialogo_Sutton(contexto);
+                new dialogo_sutton(contexto);
                 break;
             case R.id.Morena:
                 new dialogo_morena(contexto);

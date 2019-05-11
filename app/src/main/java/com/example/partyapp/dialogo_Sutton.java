@@ -4,13 +4,10 @@ import android.app.Dialog;
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
 import android.view.Window;
-import android.widget.Button;
 
-public class dialogo_Sutton {
+public class dialogo_sutton {
 
-    private Button Sutton;
-    private Button btn_imagen;
-    public dialogo_Sutton(Context contexto)
+    public dialogo_sutton(Context contexto)
     {
         final Dialog dialogo = new Dialog(contexto);
         dialogo.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -19,11 +16,5 @@ public class dialogo_Sutton {
         dialogo.setContentView(R.layout.dialogo_sutton);
         dialogo.show();
 
-
-
-
     }
-
-
 }
-
