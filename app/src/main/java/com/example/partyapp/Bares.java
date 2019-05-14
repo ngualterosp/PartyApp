@@ -19,7 +19,7 @@ public class Bares extends AppCompatActivity {
         contexto=this;
 
     }
-
+//holaaaaaa
     public void mostarCartas(View view) {
         new dialogo_cartas(contexto);
     }
