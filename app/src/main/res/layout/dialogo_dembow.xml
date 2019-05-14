@@ -6,8 +6,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ScrollView
-        android:layout_width="394dp"
-        android:layout_height="239dp"
+        android:layout_width="391dp"
+        android:layout_height="283dp"
         android:layout_marginStart="56dp"
         android:layout_marginLeft="56dp"
         android:layout_marginTop="8dp"
@@ -88,42 +88,40 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tuno" />
 
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tdos" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ttres" />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/sseis" />
+                app:srcCompat="@drawable/tcuatro" />
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/scinco" />
-
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/scuatro" />
-
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/suno" />
-
-            <ImageView
-                android:id="@+id/imageView8"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/sdos" />
+                app:srcCompat="@drawable/tcinco" />
 
         </LinearLayout>
     </HorizontalScrollView>
