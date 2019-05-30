@@ -109,19 +109,6 @@
                 android:layout_weight="1"
                 app:srcCompat="@drawable/atres" />
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/acuatro" />
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/acinco" />
 
         </LinearLayout>
     </HorizontalScrollView>

@@ -109,12 +109,7 @@
                 android:layout_weight="1"
                 app:srcCompat="@drawable/dtres" />
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/dcuatro" />
+
 
 
 
