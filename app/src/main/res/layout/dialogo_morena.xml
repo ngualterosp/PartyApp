@@ -109,19 +109,7 @@
                 android:layout_weight="1"
                 app:srcCompat="@drawable/mtres" />
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/mcuatro" />
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/mcinco" />
 
         </LinearLayout>
     </HorizontalScrollView>
