@@ -13,30 +13,30 @@
         android:layout_height="383dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintBottom_toTopOf="@+id/tv_titulo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.956"
         app:srcCompat="@drawable/portada1" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="391dp"
-        android:layout_height="95dp"
+        android:layout_width="378dp"
+        android:layout_height="78dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="92dp"
+        android:layout_marginBottom="76dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
@@ -46,8 +46,8 @@
             android:layout_height="75dp"
             android:layout_weight="0"
             android:background="@drawable/reproducir"
-            android:text=""
-            android:onClick="PlayPause"/>
+            android:onClick="PlayPause"
+            android:text="" />
 
         <Button
             android:id="@+id/btn_stop"
@@ -56,8 +56,8 @@
             android:layout_height="75dp"
             android:layout_weight="0"
             android:background="@drawable/detener"
-            android:text=""
-            android:onClick="Stop"/>
+            android:onClick="Stop"
+            android:text="" />
 
         <Button
             android:id="@+id/btn_repetir"
@@ -66,8 +66,8 @@
             android:layout_height="75dp"
             android:layout_weight="0"
             android:background="@drawable/no_repetir"
-            android:text=""
-            android:onClick="Repetir"/>
+            android:onClick="Repetir"
+            android:text="" />
 
         <Button
             android:id="@+id/btn_anterior"
@@ -76,8 +76,8 @@
             android:layout_height="75dp"
             android:layout_weight="0"
             android:background="@drawable/anterior"
-            android:text=""
-            android:onClick="Anterior"/>
+            android:onClick="Anterior"
+            android:text="" />
 
         <Button
             android:id="@+id/btn_siguiente"
@@ -86,7 +86,41 @@
             android:layout_height="75dp"
             android:layout_weight="0"
             android:background="@drawable/siguiente"
-            android:text=""
-            android:onClick="Siguiente"/>
+            android:onClick="Siguiente"
+            android:text="" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_artista"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_artista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="28dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Hits extends AppCompatActivity {
@@ -13,6 +14,7 @@ public class Hits extends AppCompatActivity {
     Button play_pause, btn_repetir;
     MediaPlayer mp;
     ImageView iv;
+    TextView tv_titulo, tv_artista;
     int repetir = 2, posicion = 0;
 
     MediaPlayer vectormp [] = new MediaPlayer[10];
@@ -26,6 +28,8 @@ public class Hits extends AppCompatActivity {
         play_pause = (Button) findViewById(R.id.btn_play);
         btn_repetir = (Button) findViewById(R.id.btn_repetir);
         iv = (ImageView) findViewById(R.id.img_hits);
+        tv_titulo = (TextView) findViewById(R.id.tv_titulo);
+        tv_artista = (TextView) findViewById(R.id.tv_artista);
 
         vectormp[0] = MediaPlayer.create(this, R.raw.otrotrago);
         vectormp[1] = MediaPlayer.create(this, R.raw.verteir);
@@ -96,48 +100,88 @@ public class Hits extends AppCompatActivity {
 
                 if(posicion == 0){
                     iv.setImageResource(R.drawable.portada1);
+                    tv_titulo.setText("Otro trago");
+                    tv_artista.setText("Sech ft Darell");
                 }else if(posicion == 1){
                     iv.setImageResource(R.drawable.portada2);
+                    tv_titulo.setText("Verte ir");
+                    tv_artista.setText("Dj Luian x Mambo Kingz x Anuel Aa x Darell x Nicky Jam x Brytiago");
                 }else if(posicion == 2){
                     iv.setImageResource(R.drawable.portada3);
+                    tv_titulo.setText("Solita");
+                    tv_artista.setText("Sech");
                 }else if(posicion == 3){
                     iv.setImageResource(R.drawable.portada4);
+                    tv_titulo.setText("Pa mi (remix)");
+                    tv_artista.setText("Dallex ft Sech, Rafa Pabön, Cazzu, Feid, Khea and Lenny Tavarez");
                 }else if(posicion == 4){
                     iv.setImageResource(R.drawable.portada5);
+                    tv_titulo.setText("Ten Robaré");
+                    tv_artista.setText("Ozuna ft Nicky Jam");
                 }else if(posicion == 5){
                     iv.setImageResource(R.drawable.portada6);
+                    tv_titulo.setText("Destino");
+                    tv_artista.setText("Greeicy ft Nacho");
                 }else if(posicion == 6){
                     iv.setImageResource(R.drawable.portada7);
+                    tv_titulo.setText("Con Calma");
+                    tv_artista.setText("Daddy Yankee");
                 }else if(posicion == 7){
                     iv.setImageResource(R.drawable.portada8);
+                    tv_titulo.setText("Solita");
+                    tv_artista.setText("Sech ft Farruko, Zion y Lennox");
                 }else if(posicion == 8){
                     iv.setImageResource(R.drawable.portada9);
+                    tv_titulo.setText("HP");
+                    tv_artista.setText("Maluma");
                 }else if(posicion == 9){
                     iv.setImageResource(R.drawable.portada10);
+                    tv_titulo.setText("Si Se Da");
+                    tv_artista.setText("Myke Towers & Farruko");
                 }
             }else{
                 posicion++;
 
                 if(posicion == 0){
                     iv.setImageResource(R.drawable.portada1);
+                    tv_titulo.setText("Otro trago");
+                    tv_artista.setText("Sech ft Darell");
                 }else if(posicion == 1){
                     iv.setImageResource(R.drawable.portada2);
+                    tv_titulo.setText("Verte ir");
+                    tv_artista.setText("Dj Luian x Mambo Kingz x Anuel Aa x Darell x Nicky Jam x Brytiago");
                 }else if(posicion == 2){
                     iv.setImageResource(R.drawable.portada3);
+                    tv_titulo.setText("Solita");
+                    tv_artista.setText("Sech");
                 }else if(posicion == 3){
                     iv.setImageResource(R.drawable.portada4);
+                    tv_titulo.setText("Pa mi (remix)");
+                    tv_artista.setText("Dallex ft Sech, Rafa Pabön, Cazzu, Feid, Khea and Lenny Tavarez");
                 }else if(posicion == 4){
                     iv.setImageResource(R.drawable.portada5);
+                    tv_titulo.setText("Ten Robaré");
+                    tv_artista.setText("Ozuna ft Nicky Jam");
                 }else if(posicion == 5){
                     iv.setImageResource(R.drawable.portada6);
+                    tv_titulo.setText("Destino");
+                    tv_artista.setText("Greeicy ft Nacho");
                 }else if(posicion == 6){
                     iv.setImageResource(R.drawable.portada7);
+                    tv_titulo.setText("Con Calma");
+                    tv_artista.setText("Daddy Yankee");
                 }else if(posicion == 7){
                     iv.setImageResource(R.drawable.portada8);
+                    tv_titulo.setText("Solita");
+                    tv_artista.setText("Sech ft Farruko, Zion y Lennox");
                 }else if(posicion == 8){
                     iv.setImageResource(R.drawable.portada9);
+                    tv_titulo.setText("HP");
+                    tv_artista.setText("Maluma");
                 }else if(posicion == 9){
                     iv.setImageResource(R.drawable.portada10);
+                    tv_titulo.setText("Si Se Da");
+                    tv_artista.setText("Myke Towers & Farruko");
                 }
             }
         }else{
@@ -163,24 +207,44 @@ public class Hits extends AppCompatActivity {
 
                 if(posicion == 0){
                     iv.setImageResource(R.drawable.portada1);
+                    tv_titulo.setText("Otro trago");
+                    tv_artista.setText("Sech ft Darell");
                 }else if(posicion == 1){
                     iv.setImageResource(R.drawable.portada2);
+                    tv_titulo.setText("Verte ir");
+                    tv_artista.setText("Dj Luian x Mambo Kingz x Anuel Aa x Darell x Nicky Jam x Brytiago");
                 }else if(posicion == 2){
                     iv.setImageResource(R.drawable.portada3);
+                    tv_titulo.setText("Solita");
+                    tv_artista.setText("Sech");
                 }else if(posicion == 3){
                     iv.setImageResource(R.drawable.portada4);
+                    tv_titulo.setText("Pa mi (remix)");
+                    tv_artista.setText("Dallex ft Sech, Rafa Pabön, Cazzu, Feid, Khea and Lenny Tavarez");
                 }else if(posicion == 4){
                     iv.setImageResource(R.drawable.portada5);
+                    tv_titulo.setText("Ten Robaré");
+                    tv_artista.setText("Ozuna ft Nicky Jam");
                 }else if(posicion == 5){
                     iv.setImageResource(R.drawable.portada6);
+                    tv_titulo.setText("Destino");
+                    tv_artista.setText("Greeicy ft Nacho");
                 }else if(posicion == 6){
                     iv.setImageResource(R.drawable.portada7);
+                    tv_titulo.setText("Con Calma");
+                    tv_artista.setText("Daddy Yankee");
                 }else if(posicion == 7){
                     iv.setImageResource(R.drawable.portada8);
+                    tv_titulo.setText("Solita");
+                    tv_artista.setText("Sech ft Farruko, Zion y Lennox");
                 }else if(posicion == 8){
                     iv.setImageResource(R.drawable.portada9);
+                    tv_titulo.setText("HP");
+                    tv_artista.setText("Maluma");
                 }else if(posicion == 9){
                     iv.setImageResource(R.drawable.portada10);
+                    tv_titulo.setText("Si Se Da");
+                    tv_artista.setText("Myke Towers & Farruko");
                 }
 
                 vectormp[posicion].start();
@@ -189,24 +253,44 @@ public class Hits extends AppCompatActivity {
 
                 if(posicion == 0){
                     iv.setImageResource(R.drawable.portada1);
+                    tv_titulo.setText("Otro trago");
+                    tv_artista.setText("Sech ft Darell");
                 }else if(posicion == 1){
                     iv.setImageResource(R.drawable.portada2);
+                    tv_titulo.setText("Verte ir");
+                    tv_artista.setText("Dj Luian x Mambo Kingz x Anuel Aa x Darell x Nicky Jam x Brytiago");
                 }else if(posicion == 2){
                     iv.setImageResource(R.drawable.portada3);
+                    tv_titulo.setText("Solita");
+                    tv_artista.setText("Sech");
                 }else if(posicion == 3){
                     iv.setImageResource(R.drawable.portada4);
+                    tv_titulo.setText("Pa mi (remix)");
+                    tv_artista.setText("Dallex ft Sech, Rafa Pabön, Cazzu, Feid, Khea and Lenny Tavarez");
                 }else if(posicion == 4){
                     iv.setImageResource(R.drawable.portada5);
+                    tv_titulo.setText("Ten Robaré");
+                    tv_artista.setText("Ozuna ft Nicky Jam");
                 }else if(posicion == 5){
                     iv.setImageResource(R.drawable.portada6);
+                    tv_titulo.setText("Destino");
+                    tv_artista.setText("Greeicy ft Nacho");
                 }else if(posicion == 6){
                     iv.setImageResource(R.drawable.portada7);
+                    tv_titulo.setText("Con Calma");
+                    tv_artista.setText("Daddy Yankee");
                 }else if(posicion == 7){
                     iv.setImageResource(R.drawable.portada8);
+                    tv_titulo.setText("Solita");
+                    tv_artista.setText("Sech ft Farruko, Zion y Lennox");
                 }else if(posicion == 8){
                     iv.setImageResource(R.drawable.portada9);
+                    tv_titulo.setText("HP");
+                    tv_artista.setText("Maluma");
                 }else if(posicion == 9){
                     iv.setImageResource(R.drawable.portada10);
+                    tv_titulo.setText("Si Se Da");
+                    tv_artista.setText("Myke Towers & Farruko");
                 }
             }
         }else{
