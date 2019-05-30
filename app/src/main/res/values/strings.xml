@@ -156,4 +156,82 @@
 
     <!-- Nombres los TXT view Vitoria ModulO Bares-->
     <string name="ScrollH">Scroll</string>
+
+
+    <!-- Nombres los TXT view EVENTOS-->
+    <string name="fechaE1">CONCIERTO BRYTIAGO:
+
+Boleta VIP 80k
+Palco (para 10 personas) 1’500.000
+Por cada 20 boletas vendidas se regala 1 boleta!
+Nota:
+🔹Los pagos de boletas y palcos se pueden realizar por consignación o en efectivo (se cuadra para encontrarse y dar las boletas y dinero)
+🔹Los palcos se apartan con el 30% del total.
+🔹Se pueden vender boletas individuales en los palcos 1 y 6 ($150.000).
+🔺CONSIGNACIÓN: cuenta ahorros bancolombia
+388 229 14176
+Cesar Giraldo.
+
+Ganancias:
+6k por cada boleta vendida
+10% por cada palco vendido</string>
+    <string name="fechaE2">CONCIERTO LUNAY
+
+*BOLETERÍA Y PALCOS LIMITADOS *
+
+Etapa de lanzamiento
+Boleta VIP 80k (única localidad )
+Palco 2’000.000 (primera fila.)
+Palco 1’500.000 (segunda fila. )
+(Palcos para 10 personas)
+
+Nota:
+Los pagos de palcos se pueden realizar por consignación, o pago en efectivo a domicilio.
+
+🔹Los palcos se apartan con el 50%
+🔺CONSIGNACIÓN: cuenta ahorros Davivienda
+004470599855
+
+evento para mayores de edad
+Para compra de palcos o boletería enviar los siguientes datos:
+Nombre:
+Número celular:
+Dirección:
+Tipo de boleta( palco o vip):
+Total a pagar:
+
+Ganancias:
+6k por cada boleta vendida
+10% por cada palco vendidoCONCIERTO LUNAY
+
+*BOLETERÍA Y PALCOS LIMITADOS *
+
+Etapa de lanzamiento
+Boleta VIP 80k (única localidad )
+Palco 2’000.000 (primera fila.)
+Palco 1’500.000 (segunda fila. )
+(Palcos para 10 personas)
+
+Nota:
+Los pagos de palcos se pueden realizar por consignación, o pago en efectivo a domicilio.
+
+🔹Los palcos se apartan con el 50%
+🔺CONSIGNACIÓN: cuenta ahorros Davivienda
+004470599855
+
+evento para mayores de edad
+Para compra de palcos o boletería enviar los siguientes datos:
+Nombre:
+Número celular:
+Dirección:
+Tipo de boleta( palco o vip):
+Total a pagar:
+
+Ganancias:
+6k por cada boleta vendida
+10% por cada palco vendido</string>
+    <string name="fechaE3">TREMENDA SATA</string>
+    <string name="fechaE4">NO </string>
+
+
 </resources>
