@@ -7,8 +7,8 @@
     tools:context=".Reservas2">
 
     <LinearLayout
-        android:layout_width="285dp"
-        android:layout_height="536dp"
+        android:layout_width="334dp"
+        android:layout_height="548dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -19,7 +19,8 @@
         app:layout_constraintBottom_toTopOf="@+id/layout_redes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597">
 
         <TextView
             android:id="@+id/tv_titulo"
@@ -62,17 +63,11 @@
 
         <ImageView
             android:id="@+id/img_reservas2"
-            android:layout_width="wrap_content"
-            android:layout_height="266dp"
+            android:layout_width="match_parent"
+            android:layout_height="286dp"
             android:contentDescription="@string/img_inicio"
             app:srcCompat="@drawable/partystate" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="regresar"
-            android:text="regresar" />
     </LinearLayout>
 
     <LinearLayout

@@ -93,21 +93,21 @@
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/tuno" />
+                app:srcCompat="@drawable/dembow1" />
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/tdos" />
+                app:srcCompat="@drawable/dembow2" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/ttres" />
+                app:srcCompat="@drawable/dembow3" />
 
 
 

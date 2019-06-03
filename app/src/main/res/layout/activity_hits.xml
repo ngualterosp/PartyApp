@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/img_hits"
-        android:layout_width="403dp"
-        android:layout_height="383dp"
+        android:layout_width="337dp"
+        android:layout_height="316dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -21,7 +21,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.956"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/portada1" />
 
     <LinearLayout
@@ -32,7 +32,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="76dp"
+        android:layout_marginBottom="32dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,33 +40,14 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/btn_play"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
-            android:layout_weight="0"
-            android:background="@drawable/reproducir"
-            android:onClick="PlayPause"
-            android:text="" />
-
-        <Button
             android:id="@+id/btn_stop"
             style="@style/Widget.AppCompat.Button"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20sp"
             android:layout_weight="0"
             android:background="@drawable/detener"
             android:onClick="Stop"
-            android:text="" />
-
-        <Button
-            android:id="@+id/btn_repetir"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
-            android:layout_weight="0"
-            android:background="@drawable/no_repetir"
-            android:onClick="Repetir"
             android:text="" />
 
         <Button
@@ -80,6 +61,18 @@
             android:text="" />
 
         <Button
+            android:id="@+id/btn_play"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_weight="0"
+            android:background="@drawable/reproducir"
+            android:onClick="PlayPause"
+            android:text="" />
+
+        <Button
             android:id="@+id/btn_siguiente"
             style="@style/Widget.AppCompat.Button"
             android:layout_width="75dp"
@@ -87,6 +80,17 @@
             android:layout_weight="0"
             android:background="@drawable/siguiente"
             android:onClick="Siguiente"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn_repetir"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20sp"
+            android:layout_weight="0"
+            android:background="@drawable/no_repetir"
+            android:onClick="Repetir"
             android:text="" />
     </LinearLayout>
 
@@ -98,13 +102,13 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="12dp"
         android:text="TextView"
         android:textColor="@android:color/background_light"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/tv_artista"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.202"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -115,12 +119,26 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="8dp"
         android:text="TextView"
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.181"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_hits"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/corazon" />
 </android.support.constraint.ConstraintLayout>

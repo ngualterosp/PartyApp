@@ -45,23 +45,23 @@
     <string name="btn_regresar">REGRESAR</string>
 
     <!-- Nombres los TXT view Sutton ModulO Bares-->
-    <string name="coverS">Cover: 25k</string>
-    <string name="nombreS">Sutton</string>
-    <string name="AmbienteS">Ambiente: Crossover</string>
-    <string name="EdadS">Edad mínima: 18+</string>
+    <string name="coverS">💰Cover: 25k</string>
+    <string name="nombreS">🎉Sutton</string>
+    <string name="AmbienteS">🎇Ambiente: Crossover</string>
+    <string name="EdadS">💳Edad mínima: 18+</string>
     <string name="beneficiosS">
-        Beneficios:
+        🎈Beneficios:
         •Entradas gratis dependiendo del número de personas que sean
         •Botella de champaña para cumpliañero/a
         •Espacio decorado</string>
 
     <!-- Nombres los TXT view Morena ModulO Bares-->
-    <string name="coverM">Cover: 20k</string>
-    <string name="nombreM">Morena</string>
-    <string name="AmbienteM">Ambiente: 1.Reggaeton nuevo, 2.Reggaeton old school </string>
-    <string name="EdadM">Edad mínima: 18+</string>
+    <string name="coverM">💰Cover: 20k</string>
+    <string name="nombreM">🎉Morena</string>
+    <string name="AmbienteM">🎇Ambiente: 1.Reggaeton nuevo, 2.Reggaeton old school </string>
+    <string name="EdadM">💳Edad mínima: 18+</string>
     <string name="beneficiosM">
-        Beneficios:
+        🎈Beneficios:
         •Entradas gratis dependiendo el número de personas que sean
         •Botella de champán con vela volcánica
         •Lugar decorado
@@ -70,12 +70,12 @@
         •Espacio decorado</string>
 
     <!-- Nombres los TXT view Adicta ModulO Bares-->
-    <string name="coverA">Cover: 20k</string>
-    <string name="nombreA">Adicta</string>
-    <string name="AmbienteA">Ambiente: Crossover</string>
-    <string name="EdadA">Edad mínima: 21+</string>
+    <string name="coverA">💰Cover: 20k</string>
+    <string name="nombreA">🎉Adicta</string>
+    <string name="AmbienteA">🎇Ambiente: Crossover</string>
+    <string name="EdadA">💳Edad mínima: 21+</string>
     <string name="beneficiosA">
-        Beneficios:
+        🎈Beneficios:
         •Entradas gratis dependiendo del número de personas en total
         •Decoración de mesa
         •Fotografo a media noche
@@ -86,57 +86,57 @@
 
 
     <!-- Nombres los TXT view Tierra Bomba ModulO Bares-->
-    <string name="coverT">Cover: 25k</string>
-    <string name="nombreT">Tierra Bomba</string>
-    <string name="AmbienteT">Ambiente: Crossover</string>
-    <string name="EdadT">Edad mínima: 18+</string>
+    <string name="coverT">💰Cover: 25k</string>
+    <string name="nombreT">🎉Tierra Bomba</string>
+    <string name="AmbienteT">🎇Ambiente: Crossover</string>
+    <string name="EdadT">💳Edad mínima: 18+</string>
     <string name="beneficiosT">
-        Beneficios:
+        🎈Beneficios:
         •Entradas gratis dependiendo del número de personas que sean en total
         •Lugar dentro del bar
         •Botella de champaña cumpliañero/a
         •Espacio decorado</string>
 
     <!-- Nombres los TXT view Cangri ModulO Bares-->
-    <string name="coverC">Cover: 20k</string>
-    <string name="nombreC">Cangri</string>
-    <string name="AmbienteC">Ambiente: Reggaeton y dance hall</string>
-    <string name="EdadC">Edad mínima: 18+</string>
+    <string name="coverC">💰Cover: 20k</string>
+    <string name="nombreC">🎉Cangri</string>
+    <string name="AmbienteC">🎇Ambiente: Reggaeton y dance hall</string>
+    <string name="EdadC">💳Edad mínima: 18+</string>
     <string name="beneficiosC">
-        Beneficios:
+        🎈Beneficios:
         •Entradas gratis dependiendo del número de personas en total
         •Espacio decorado bombas
         •Media de aguardiente</string>
 
     <!-- Nombres los TXT view dELICIA ModulO Bares-->
-    <string name="coverD">Cover: 20k</string>
-    <string name="nombreD">Delicia</string>
-    <string name="AmbienteD">Ambiente: Crossover</string>
-    <string name="EdadD">Edad mínima: 21+</string>
+    <string name="coverD">💰Cover: 20k</string>
+    <string name="nombreD">🎉Delicia</string>
+    <string name="AmbienteD">🎇Ambiente: Crossover</string>
+    <string name="EdadD">💳Edad mínima: 21+</string>
     <string name="beneficiosD">
-        Beneficios:
+        🎈Beneficios:
         •Entradas gratis dependiendo del número de personas en total
         •celebración a media noche</string>
 
 
     <!-- Nombres los TXT view DEMMBOW ModulO Bares-->
-    <string name="coverW">Cover: 20k</string>
-    <string name="nombreW">Dembow</string>
-    <string name="AmbienteW">Ambiente: Reggaeton y dance hall</string>
-    <string name="EdadW">Edad mínima: 18+</string>
+    <string name="coverW">💰Cover: 20k</string>
+    <string name="nombreW">🎉Dembow</string>
+    <string name="AmbienteW">🎇Ambiente: Reggaeton y dance hall</string>
+    <string name="EdadW">💳Edad mínima: 18+</string>
     <string name="beneficiosW">
-        Beneficios:
+        🎈Beneficios:
         •Entradas gratis dependiendo del número de personas en total
         • Coctel para cumpliañero/a
         • Reserva de espacio</string>
 
     <!-- Nombres los TXT view Lio ModulO Bares-->
-    <string name="coverL">Cover: 20k</string>
-    <string name="nombreL">Lio</string>
-    <string name="AmbienteL">Ambiente: Crossover</string>
-    <string name="EdadL">Edad mínima: 18+</string>
+    <string name="coverL">💰Cover: 20k</string>
+    <string name="nombreL">🎉Lio</string>
+    <string name="AmbienteL">🎇Ambiente: Crossover</string>
+    <string name="EdadL">💳Edad mínima: 18+</string>
     <string name="beneficiosL">
-        Beneficios:
+        🎈Beneficios:
         •Entradas gratis dependiendo del número de personas que sean en total
         •Botella de champaña cumplieañero/a
         •Lugar dentro del bar
@@ -144,12 +144,12 @@
 
 
     <!-- Nombres los TXT view Vitoria ModulO Bares-->
-    <string name="coverV">Cover: 20k</string>
-    <string name="nombreV">Vitoria</string>
-    <string name="AmbienteV">Ambiente: Crossover</string>
-    <string name="EdadV">Edad mínima: 18+</string>
+    <string name="coverV">💰Cover: 20k</string>
+    <string name="nombreV">🎉Vitoria</string>
+    <string name="AmbienteV">🎇Ambiente: Crossover</string>
+    <string name="EdadV">💳Edad mínima: 18+</string>
     <string name="beneficiosV">
-        Beneficios:
+        🎈Beneficios:
         •Entradas gratis dependiendo el núnero total de personas
         •Celebración de media noche con una Champaña
         •Decoración del espacio</string>
@@ -163,75 +163,29 @@
 
 Boleta VIP 80k
 Palco (para 10 personas) 1’500.000
-Por cada 20 boletas vendidas se regala 1 boleta!
 Nota:
-🔹Los pagos de boletas y palcos se pueden realizar por consignación o en efectivo (se cuadra para encontrarse y dar las boletas y dinero)
+🔹Los pagos de boletas y palcos se pueden realizar por consignación o en efectivo
 🔹Los palcos se apartan con el 30% del total.
-🔹Se pueden vender boletas individuales en los palcos 1 y 6 ($150.000).
-🔺CONSIGNACIÓN: cuenta ahorros bancolombia
-388 229 14176
-Cesar Giraldo.
 
-Ganancias:
-6k por cada boleta vendida
-10% por cada palco vendido</string>
-    <string name="fechaE2">CONCIERTO LUNAY
 
-*BOLETERÍA Y PALCOS LIMITADOS *
+</string>
+    <string name="fechaE2">CONCIERTO LUNAY:
 
-Etapa de lanzamiento
-Boleta VIP 80k (única localidad )
+Boleta VIP 80k (única localidad)
 Palco 2’000.000 (primera fila.)
 Palco 1’500.000 (segunda fila. )
-(Palcos para 10 personas)
-
 Nota:
-Los pagos de palcos se pueden realizar por consignación, o pago en efectivo a domicilio.
+🔹Los pagos de boletas y palcos se pueden realizar por consignación o en efectivo
+🔹Los palcos se apartan con el 30% del total.
+</string>
+    <string name="fechaE3">TREMENDA SATA:
 
-🔹Los palcos se apartan con el 50%
-🔺CONSIGNACIÓN: cuenta ahorros Davivienda
-004470599855
+        ¡Próximamente información completa del evento!
 
-evento para mayores de edad
-Para compra de palcos o boletería enviar los siguientes datos:
-Nombre:
-Número celular:
-Dirección:
-Tipo de boleta( palco o vip):
-Total a pagar:
 
-Ganancias:
-6k por cada boleta vendida
-10% por cada palco vendidoCONCIERTO LUNAY
-
-*BOLETERÍA Y PALCOS LIMITADOS *
-
-Etapa de lanzamiento
-Boleta VIP 80k (única localidad )
-Palco 2’000.000 (primera fila.)
-Palco 1’500.000 (segunda fila. )
-(Palcos para 10 personas)
-
-Nota:
-Los pagos de palcos se pueden realizar por consignación, o pago en efectivo a domicilio.
-
-🔹Los palcos se apartan con el 50%
-🔺CONSIGNACIÓN: cuenta ahorros Davivienda
-004470599855
-
-evento para mayores de edad
-Para compra de palcos o boletería enviar los siguientes datos:
-Nombre:
-Número celular:
-Dirección:
-Tipo de boleta( palco o vip):
-Total a pagar:
-
-Ganancias:
-6k por cada boleta vendida
-10% por cada palco vendido</string>
-    <string name="fechaE3">TREMENDA SATA</string>
-    <string name="fechaE4">NO </string>
+    </string>
+    <string name="fechaE4">
+    .</string>
 
 
 </resources>

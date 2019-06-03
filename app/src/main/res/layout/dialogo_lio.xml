@@ -93,35 +93,21 @@
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/tuno" />
+                app:srcCompat="@drawable/lio1" />
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/tdos" />
+                app:srcCompat="@drawable/lio2" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/ttres" />
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/tcuatro" />
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/tcinco" />
+                app:srcCompat="@drawable/lio3" />
 
         </LinearLayout>
     </HorizontalScrollView>
