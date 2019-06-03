@@ -53,19 +53,19 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="56dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btn_fechaR"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:layout_width="78dp"
+                android:layout_height="56dp"
                 android:layout_weight="1"
-                android:text="@string/btn_fechaR" />
+                android:background="@drawable/cal" />
 
             <EditText
                 android:id="@+id/et_fechaR"
-                android:layout_width="276dp"
+                android:layout_width="301dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:ems="10"
