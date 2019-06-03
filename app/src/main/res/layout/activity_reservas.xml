@@ -48,7 +48,10 @@
             android:hint="@string/et_nombreR"
             android:inputType="textPersonName"
             android:shadowColor="#000000"
-            android:shadowRadius="1"/>
+            android:shadowRadius="1"
+            android:textColorHighlight="@android:color/holo_red_light"
+            android:textColorLink="@android:color/holo_red_light"
+            android:textCursorDrawable="@android:color/holo_red_light" />
 
 
         <LinearLayout
