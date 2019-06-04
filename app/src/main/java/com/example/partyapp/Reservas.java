@@ -53,7 +53,6 @@ public class Reservas extends AppCompatActivity implements DatePickerDialog.OnDa
         et_cortesiasR = (EditText) findViewById(R.id.et_cortesiasR);
         et_listaR = (EditText) findViewById(R.id.et_listaR);
         sp_promotores = (Spinner) findViewById(R.id.sp_promotoresR);
-        img_barR = (ImageView) findViewById(R.id.img_barR);
         btn_reservarR = (Button) findViewById(R.id.btn_reservarR);
 
 

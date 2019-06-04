@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context=".Reservas">
 
     <ScrollView
@@ -19,7 +20,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/layout_vertical"
@@ -49,22 +50,24 @@
             android:inputType="textPersonName"
             android:shadowColor="#000000"
             android:shadowRadius="1"
+            android:textColor="@android:color/black"
             android:textColorHighlight="@android:color/holo_red_light"
+            android:textColorHint="@android:color/black"
             android:textColorLink="@android:color/holo_red_light"
             android:textCursorDrawable="@android:color/holo_red_light" />
 
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="56dp"
+            android:layout_height="77dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btn_fechaR"
                 android:layout_width="78dp"
-                android:layout_height="56dp"
+                android:layout_height="78dp"
                 android:layout_weight="1"
-                android:background="@drawable/cal" />
+                android:background="@drawable/calendar" />
 
             <EditText
                 android:id="@+id/et_fechaR"
@@ -75,7 +78,8 @@
                 android:hint="@string/et_fechaR"
                 android:inputType="date"
                 android:shadowColor="#000000"
-                android:shadowRadius="1" />
+                android:shadowRadius="1"
+                android:textColorHint="@android:color/black" />
         </LinearLayout>
 
         <Spinner
@@ -99,7 +103,8 @@
                 android:hint="@string/et_personasR"
                 android:inputType="number"
                 android:shadowColor="#000000"
-                android:shadowRadius="1"/>
+                android:shadowRadius="1"
+                android:textColorHint="@android:color/black" />
 
             <EditText
                 android:id="@+id/et_cortesiasR"
@@ -110,7 +115,8 @@
                 android:hint="@string/et_cortesiasR"
                 android:inputType="number"
                 android:shadowColor="#000000"
-                android:shadowRadius="1"/>
+                android:shadowRadius="1"
+                android:textColorHint="@android:color/black" />
         </LinearLayout>
 
         <TextView
@@ -118,42 +124,38 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/tv_listaR"
             android:shadowColor="#000000"
-            android:shadowRadius="1"/>
+            android:shadowRadius="1"
+            android:text="@string/tv_listaR"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
 
         <EditText
             android:id="@+id/et_listaR"
             android:layout_width="match_parent"
-            android:layout_height="109dp"
+            android:layout_height="170dp"
             android:layout_marginBottom="10dp"
             android:ems="10"
             android:hint="@string/et_listaR"
             android:inputType="textMultiLine"
             android:shadowColor="#000000"
-            android:shadowRadius="1" />
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
 
         <Spinner
             android:id="@+id/sp_promotoresR"
             android:layout_width="match_parent"
-            android:layout_height="47dp" />
-
-        <ImageView
-            android:id="@+id/img_barR"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/partystate"
-            android:contentDescription="@string/img_barR" />
+            android:layout_height="56dp" />
 
         <Button
             android:id="@+id/btn_reservarR"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="286dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/res"
             android:onClick="btn_reservas2"
-            android:shadowColor="#000000"
-            android:shadowRadius="1"
-            android:text="@string/btn_reservarR" />
+            android:shadowRadius="1" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
