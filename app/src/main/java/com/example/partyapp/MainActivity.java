@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
         btn_twitter = (Button) findViewById(R.id.btn_twitter);
         btn_youtube = (Button) findViewById(R.id.btn_youtube);
 
+        //Icono en el ActionBar
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher);
     }
 
     // Boton de Facebook
